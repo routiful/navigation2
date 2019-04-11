@@ -7,8 +7,8 @@
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #endif
 
-// #define n 3
-static const int n = 3;
+#define n 3
+// static const int n = 3;
 
 static double hypot2(double x, double y)
 {
