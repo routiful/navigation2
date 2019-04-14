@@ -78,8 +78,8 @@ AmclNode::AmclNode()
   motionModel_(NULL),
   laser_(NULL),
   initial_pose_hyp_(NULL),
-  first_map_received_(false),
-  first_reconfigure_call_(true)
+  first_map_received_(false)
+  // first_reconfigure_call_(true)
 {
   RCLCPP_INFO(get_logger(), "Initializing AMCL");
   std::lock_guard<std::recursive_mutex> l(configuration_mutex_);
