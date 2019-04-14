@@ -474,7 +474,7 @@ private:
   {
 public:
     PolygonOutlineCells(
-      const Costmap2D & costmap, const unsigned char * char_map,
+      const Costmap2D & costmap, /*const unsigned char * char_map,*/
       std::vector<MapLocation> & cells)
     : costmap_(costmap), /*char_map_(char_map),*/ cells_(cells)
     {
